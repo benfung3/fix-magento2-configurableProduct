@@ -1,0 +1,14 @@
+{
+  "name": "ben/override-configurable-product",
+  "description": "Fixed M2  Bugs - Category configurable products min/max negative prices range",
+  "type": "magento2-module",
+  "require": {
+    "php": "~7.0.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Ben\\ConfigurableProduct\\": ""
+    }
+  }
+}
